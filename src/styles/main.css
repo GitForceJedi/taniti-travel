@@ -32,7 +32,7 @@ main {
 /* Header & Footer Styling */
 .footer {
   background-color: #1ca9c9;
-  background-image: url('assets/island2.jpg');
+  background-image: url('/taniti-travel/assets/island2.jpg');
   background-size: 2000px auto;
   background-position: top center;
   background-repeat: no-repeat;

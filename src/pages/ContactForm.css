@@ -1,0 +1,70 @@
+.popup-form-wrapper {
+  padding: 2rem;
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #fff;
+  color: #2f2f2f;
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.popup-form-wrapper h2 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+  color: #f94d0d;
+  text-align: center;
+}
+
+.popup-form {
+  display: flex;
+  flex-direction: column;
+  gap: 1.25rem;
+}
+
+.popup-form label {
+  font-weight: bold;
+  font-size: 1rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.popup-form input,
+.popup-form textarea {
+  padding: 0.75rem;
+  font-size: 1rem;
+  width: 100%;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+  font-family: inherit;
+  resize: vertical;
+}
+
+.popup-form textarea {
+  min-height: 100px;
+}
+
+.thanks {
+  color: green;
+  font-weight: bold;
+  text-align: center;
+  margin-top: 1rem;
+}
+
+/* 🔁 Global CTA button styling (used here and across site) */
+.card-cta {
+  align-self: flex-end;
+  background-color: #f94d0d;
+  color: white;
+  padding: 0.75rem 1.5rem;
+  border-radius: 8px;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 1.1rem;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.card-cta:hover {
+  background-color: #cc3700;
+}

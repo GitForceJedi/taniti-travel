@@ -1,0 +1,52 @@
+/* === GLOBAL OVERFLOW GUARD === */
+
+/* Prevent content from exceeding viewport */
+html,
+body {
+  max-width: 100%;
+  overflow-x: hidden;
+}
+
+/* Universal box-sizing fix */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+/* Ensure images and media never overflow */
+img,
+video,
+iframe {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
+/* Fix for flexbox/grids that break layouts */
+.row,
+.flex,
+.grid,
+.split-card,
+.header-inner,
+.card-grid {
+  flex-wrap: wrap;
+  overflow: hidden;
+}
+
+/* Prevent oversized elements */
+.container,
+.section,
+.main-inner,
+.carousel-layered-wrapper {
+  max-width: 100vw;
+  overflow-x: hidden;
+}
+
+/* Optional: reduce aggressive padding on tablets */
+@media (max-width: 1024px) {
+  .main-inner {
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+}

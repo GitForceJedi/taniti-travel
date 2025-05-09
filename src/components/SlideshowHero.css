@@ -1,0 +1,78 @@
+.slideshow-carousel {
+  width: 100%;
+}
+
+.carousel-layered-wrapper {
+  position: relative;
+  width: 100%;
+  height: 400px; /* Fixed crop height */
+  overflow: hidden;
+}
+
+.carousel-image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+  display: block;
+}
+
+/* ✅ Shadow overlay over image, but under text */
+.carousel-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background: rgba(0, 0, 0, 0.3); /* semi-transparent shadow */
+  z-index: 1;
+  pointer-events: none;
+}
+
+/* ✅ Ensures text stays above overlay */
+.carousel-caption {
+  position: absolute;
+  z-index: 2;
+  color: whitesmoke;
+}
+
+.carousel-indicators [data-bs-target] {
+  background-color: #f94d0d; /* 🔶 Color of inactive dot */
+  width: 30px;
+  height: 3px;
+  border-radius: 0%;
+  opacity: 0.5;
+  transition: opacity 0.3s ease;
+  margin: 0 6px;
+}
+
+/* Active dot */
+.carousel-indicators .active {
+  background-color: #f94d0d; /* 🔶 Color of active dot */
+  opacity: 1;
+}
+
+.carousel-indicators [data-bs-target]:hover {
+  background-color: #f94d0d; /* 🔶 Color of active dot */
+  opacity: 1;
+}
+
+@media (max-width: 480px) {
+  .carousel-layered-wrapper {
+    height: 200px;
+  }
+}
+
+@media (max-width: 768px) {
+  .carousel-layered-wrapper {
+    height: 250px;
+  }
+}
+
+@media (max-width: 1024px) {
+  /* 💻 Small laptop carousel adjustments (none yet) */
+}
+
+@media (max-width: 1280px) {
+  /* 🖥️ Mid-size screen tweaks (none currently) */
+}

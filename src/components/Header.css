@@ -1,0 +1,115 @@
+.header {
+  background-color: white;
+  background-image: url('assets/palm.jpg');
+  background-size: cover;
+  background-position: top center;
+  background-repeat: no-repeat;
+  color: #f94d0d !important;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  display: flex;
+  justify-content: center;
+  padding: 0.25rem;
+}
+
+.header-inner {
+  display: flex;
+  align-items: center;
+  max-width: 1200px;
+  width: 100%;
+}
+
+.logo-container {
+  flex-shrink: 0;
+}
+
+.logo-container img {
+  height: 180px;
+  width: auto;
+  display: block;
+}
+
+.title-and-nav {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  flex-grow: 1;
+}
+
+.title-and-nav h1 {
+  margin: 0;
+  font-size: 2.5rem;
+  color: #f94d0d;
+  text-align: left;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  padding: 0;
+  margin: 0.5rem 0 0 0;
+}
+
+.nav-links li a {
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 1.3rem;
+  color: #f94d0d;
+  padding: 5px 10px;
+  border-radius: 5px;
+}
+
+.nav-links li a:hover,
+.nav-links li a:focus {
+  color: white;
+  background-color: #f94d0d;
+  text-decoration: none;
+}
+
+/* ✅ Responsive Fixes */
+
+@media (max-width: 1024px) {
+  .header-inner {
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: center;
+  }
+
+  .title-and-nav {
+    align-items: center;
+    text-align: center;
+  }
+
+  .title-and-nav h1 {
+    text-align: center;
+    font-size: 2rem;
+  }
+
+  .nav-links {
+    justify-content: center;
+  }
+}
+
+@media (max-width: 768px) {
+  .logo-container img {
+    height: 120px;
+  }
+
+  .nav-links li a {
+    font-size: 1.1rem;
+    padding: 8px 12px;
+  }
+}
+
+@media (max-width: 480px) {
+  .title-and-nav h1 {
+    font-size: 1.5rem;
+  }
+
+  .nav-links li a {
+    font-size: 1rem;
+    padding: 6px 10px;
+  }
+}

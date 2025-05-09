@@ -1,0 +1,7 @@
+.cont-button {
+  display: flex;
+  gap: 2rem;
+  align-items: stretch;
+  margin-left: 2rem;
+  margin-bottom: 2rem;
+}

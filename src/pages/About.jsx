@@ -41,7 +41,7 @@ export default function About() {
       <Hero
         title="About Taniti"
         subtitle="Discover the island's geography, people, and essential travel details."
-        image="/assets/beach-top.jpg"
+        image="assets/beach-top.jpg"
       />
       <TwoColumnLayout left={left} right={right} />
       <TextBlock heading="Frequently Requested Information">

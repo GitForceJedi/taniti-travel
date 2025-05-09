@@ -1,6 +1,7 @@
 {
   "name": "taniti-travel",
   "version": "1.0.0",
+  "homepage": "https://kenwillcode.com/taniti-travel/",
   "scripts": {
     "dev": "vite",
     "build": "vite build",

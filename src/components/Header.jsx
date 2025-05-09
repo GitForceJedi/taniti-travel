@@ -8,7 +8,7 @@ export default function Header() {
     <header className="header">
       <div className="header-inner">
         <div className="logo-container">
-          <img src="/assets/t-f94d0d-logo.png" alt="Taniti Logo" />
+          <img src="assets/t-f94d0d-logo.png" alt="Taniti Logo" />
         </div>
 
         <div className="title-and-nav">

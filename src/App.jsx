@@ -13,7 +13,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 
 function App() {
   return (
-    <Router>
+    <Router basename="/taniti-travel">
       <div className="page-wrapper">
         <Header />
         <main>

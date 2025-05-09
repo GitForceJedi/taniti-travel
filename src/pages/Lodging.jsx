@@ -29,20 +29,20 @@ export default function Lodging() {
       image: 'assets/lodging-pool2.jpg',
       title: 'Four-Star Resort',
       text: 'This premier resort offers beachside luxury, gourmet dining, spa services, and breathtaking views \u2014 perfect for travelers seeking upscale comfort.',
-      cta: { label: 'Book Now', url: '' },
+      cta: { label: 'Book Now', url: 'https://www.tripadvisor.com/' },
     },
     {
       image: 'assets/lodging-house3.avif',
       title: 'Charming Family Hotels',
       text: 'Family-run hotels offer warm hospitality, comfortable rooms, and easy access to Taniti\u2019s city center and beaches.',
-      cta: { label: 'Book Now', url: '' },
+      cta: { label: 'Book Now', url: 'https://www.tripadvisor.com/' },
       reverse: true,
     },
     {
       image: 'assets/lodging-house4.jpg',
       title: 'Bed and Breakfasts',
       text: 'Cozy B&Bs provide home-style service, daily breakfast, and are ideal for couples or solo travelers looking for a local experience.',
-      cta: { label: 'Book Now', url: '' },
+      cta: { label: 'Book Now', url: 'https://www.tripadvisor.com/' },
     },
   ];
   return (

@@ -4,8 +4,11 @@ export function openContactForm(theWidth, theHeight) {
   const left = window.screenX + (window.outerWidth - width) / 2;
   const top = window.screenY + (window.outerHeight - height) / 2;
 
+  const base = import.meta.env.BASE_URL || '/taniti-travel/';
+  const popupUrl = `${base}contact-popup`;
+
   window.open(
-    '/contact-popup',
+    popupUrl,
     'ContactForm',
     `width=${width},height=${height},top=${top},left=${left},resizable=yes`
   );

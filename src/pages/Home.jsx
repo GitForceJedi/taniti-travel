@@ -62,13 +62,13 @@ export default function Home() {
       image: 'assets/gen-bird.jpg',
       title: 'Experience Nature & Wildlife',
       text: 'Taniti is home to unique flora and fauna, including rare birds and tropical plants.',
-      cta: { label: 'Explore Nature', url: '/entertainment' },
+      cta: { label: 'Explore Nature', url: '/taniti-travel/entertainment' },
     },
     {
       image: 'assets/plane-runway.jpg',
       title: 'Getting To Taniti',
       text: 'Book your flight or cruise to Taniti. The airport supports small jets and propeller planes, with expansion plans for larger jets.',
-      cta: { label: 'Book Now', url: '/transportation' },
+      cta: { label: 'Book Now', url: '/taniti-travel/transportation' },
     },
     {
       image: 'assets/contact.jpg',
@@ -83,20 +83,20 @@ export default function Home() {
       image: 'assets/dining-chef-plate.jpg',
       title: 'Taste Local Cuisine',
       text: 'Sample fresh seafood and fusion cuisine from Taniti’s beachfront restaurants.',
-      cta: { label: 'View Dining', url: '/dining' },
+      cta: { label: 'View Dining', url: '/taniti-travel/dining' },
     },
     {
       image: 'assets/zipline.jpg',
       title: 'Adventure Awaits',
       text: 'Go zip-lining, hiking, and snorkeling in our breathtaking tropical landscape.',
-      cta: { label: 'Explore Fun', url: '/entertainment' },
+      cta: { label: 'Explore Fun', url: '/taniti-travel/entertainment' },
       reverse: true,
     },
     {
       image: 'assets/lodging-house3.avif',
       title: 'Stay in Style',
       text: 'Whether you prefer luxury resorts or cozy cottages, Taniti has lodging for everyone.',
-      cta: { label: 'Book Now', url: '/lodging' },
+      cta: { label: 'Book Now', url: '/taniti-travel/lodging' },
     },
   ];
 

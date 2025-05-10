@@ -117,7 +117,7 @@ export default function Dining() {
       cta: { label: 'Visit QuickMart', url: 'https://www.tripadvisor.com/' },
     },
     {
-      image: 'assets/contact-us.jpg',
+      image: 'assets/contact.jpg',
       title: 'Need Help Finding a Spot?',
       text: 'Reach out to our tourism staff and we’ll help you pick the perfect place.',
       cta: { label: 'Contact Us', url: '/contact-popup', popup: true },

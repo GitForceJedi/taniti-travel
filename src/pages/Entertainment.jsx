@@ -102,10 +102,10 @@ export default function Entertainment() {
       cta: { label: 'Go Bowling', url: 'https://www.tripadvisor.com/' },
     },
     {
-      image: 'assets/golf.jpg',
-      title: 'Golf Course (Coming Soon)',
-      text: 'A 9-hole golf course is expected to open next year in the popular Merriton Landing area.',
-      cta: { label: 'Learn More', url: 'https://www.tripadvisor.com/' },
+      image: 'assets/contact.jpg',
+      title: 'Contact Us For Booking',
+      text: 'Need help booking activities? Our team is here to assist you with all your entertainment needs.',
+      cta: { label: 'Learn More', url: '/contact-popup', popup: true },
     },
   ];
 
@@ -125,6 +125,12 @@ export default function Entertainment() {
         <p>
           Many of Taniti’s most exciting activities are located in Merriton
           Landing, a growing hub of entertainment along Yellow Leaf Bay.
+        </p>
+      </TextBlock>
+      <TextBlock heading="Coming Soon: A 9 Hole Golf Course">
+        <p>
+          A 9-hole golf course is expected to open next year in the popular
+          Merriton Landing area.
         </p>
       </TextBlock>
     </>

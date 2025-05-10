@@ -8,19 +8,10 @@ import SplitCard from '../components/SplitCard';
 export default function Lodging() {
   const cards = [
     {
-      image: 'assets/lodging1.jpg',
-      title: 'Four-Star Resort',
-      text: 'This premier resort offers beachside luxury, gourmet dining, spa services, and breathtaking views \u2014 perfect for travelers seeking upscale comfort.',
-    },
-    {
-      image: 'assets/hero.jpg',
-      title: 'Charming Family Hotels',
-      text: 'Family-run hotels offer warm hospitality, comfortable rooms, and easy access to Taniti\u2019s city center and beaches.',
-    },
-    {
-      image: 'assets/transport1.jpg',
-      title: 'Bed and Breakfasts',
-      text: 'Cozy B&Bs provide home-style service, daily breakfast, and are ideal for couples or solo travelers looking for a local experience.',
+      image: 'assets/contact.jpg',
+      title: 'Contact Us For Logding Accommodations',
+      text: 'Contact us for more information about lodging options in Taniti. We can help you find the perfect place to stay.',
+      cta: { label: 'Contact Us', url: '/contact-popup', popup: true },
     },
   ];
 
@@ -59,6 +50,7 @@ export default function Lodging() {
         </p>
       </TextBlock>
       <SplitCard items={splitCards} />
+      <CardGrid items={cards} />
     </>
   );
 }

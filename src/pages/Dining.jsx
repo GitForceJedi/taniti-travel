@@ -137,6 +137,12 @@ export default function Dining() {
           American classics and Pan-Asian cuisine. Enjoy local flavors at
           beachfront restaurants or cozy cafes.
         </p>
+        <p>
+          Taniti currently has 10 restaurants: five serve mostly local fish and
+          rice, three serve American-style meals, and two serve Pan-Asian
+          cuisine. Taniti has two supermarkets, two smaller grocery stores, and
+          one convenience store that is open 24 hours a day.
+        </p>
       </TextBlock>
       <CardGrid items={grid1} />
       <CardGrid items={grid2} />

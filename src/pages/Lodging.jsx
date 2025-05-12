@@ -45,8 +45,11 @@ export default function Lodging() {
       />
       <TextBlock heading="Lodging Options">
         <p>
-          Accommodations range from hostels to a luxurious four-star resort.
-          Many family-run hotels and B&Bs are available too.
+          Taniti has a wide variety of lodging that ranges from an inexpensive
+          hostel to one large, four-star resort. There are many small,
+          family-owned hotels and a growing number of bed and breakfasts. All
+          types of lodging are strictly regulated and regularly inspected by the
+          Tanitian government.
         </p>
       </TextBlock>
       <SplitCard items={splitCards} />
